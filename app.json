@@ -3,6 +3,7 @@
     "name": "rn-weather-playground",
     "slug": "rn-weather-playground",
     "version": "1.0.0",
+    "scheme": "rnweatherplayground",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,6 +21,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
